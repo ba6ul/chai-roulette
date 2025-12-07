@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Roulette</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🍵 Chai Roulette</h1>
+        <p class="subtitle">Who's buying chai today?</p>
+        
+        <div class="input-section">
+            <div class="input-group">
+                <input type="text" id="name-input" placeholder="Enter a name..." />
+                <button class="add-btn" id="add-btn">Add</button>
+            </div>
+            <p class="error-message" id="error-msg">Please add at least 2 names!</p>
+            <div class="names-list" id="names-list"></div>
+        </div>
+
+        <div class="winner-box">
+            <h2 id="name-display">???</h2>
+        </div>
+
+        <button class="spin-btn" id="spin-btn">🎰 Spin the Wheel</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
